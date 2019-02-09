@@ -1,5 +1,5 @@
 ARTICLES = ["da", "de", "do", "das", "dos"]
-
+name = 'Gustavo Pereira Nunes de Oere'
 
 def generate_name(name):
     parts = name.split()
@@ -17,4 +17,4 @@ def generate_name(name):
 
 
 def generate_mid_names(mid_name):
-    return ['{}.'.format(mid_names[:1]) if mid_names not in ARTIGOS else mid_names for mid_names in mid_name]
+    return ['{}'.format(mid_names[:1]) if mid_names not in ARTICLES else mid_names for mid_names in mid_name]
